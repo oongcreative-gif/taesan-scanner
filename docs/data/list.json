@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-23T20:42:20+09:00",
+ "updated_at": "2026-10-23T20:51:50+09:00",
  "asof": "2026-10-23",
  "since": "2026-01-01",
  "params": {
@@ -46,8 +46,8 @@
    "close": 35650.0,
    "change_pct": -1.93,
    "dd_now": -50.3,
-   "alt_date": "2026-10-22",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -109,8 +109,8 @@
    "close": 16680.0,
    "change_pct": -3.14,
    "dd_now": -52.8,
-   "alt_date": "2026-10-12",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -172,8 +172,8 @@
    "close": 106700.0,
    "change_pct": -1.57,
    "dd_now": -49.8,
-   "alt_date": "2026-10-07",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -214,8 +214,8 @@
    "close": 465500.0,
    "change_pct": -2.31,
    "dd_now": -58.4,
-   "alt_date": "2026-10-13",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -235,8 +235,8 @@
    "close": 101100.0,
    "change_pct": -3.62,
    "dd_now": -53.1,
-   "alt_date": "2026-10-13",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -365,8 +365,8 @@
    "close": 17210.0,
    "change_pct": 2.56,
    "dd_now": -65.5,
-   "alt_date": "2026-10-13",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -386,8 +386,8 @@
    "close": 6700.0,
    "change_pct": -2.9,
    "dd_now": -55.6,
-   "alt_date": "2026-10-13",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -428,8 +428,8 @@
    "close": 137700.0,
    "change_pct": -3.23,
    "dd_now": -58.6,
-   "alt_date": "2026-10-12",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -449,8 +449,8 @@
    "close": 77100.0,
    "change_pct": -0.13,
    "dd_now": -52.7,
-   "alt_date": "2026-10-12",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -491,8 +491,8 @@
    "close": 4840.0,
    "change_pct": -0.72,
    "dd_now": -56.8,
-   "alt_date": "2026-10-12",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -512,8 +512,8 @@
    "close": 304000.0,
    "change_pct": -0.49,
    "dd_now": -60.3,
-   "alt_date": "2026-10-08",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -533,8 +533,8 @@
    "close": 9210.0,
    "change_pct": -0.86,
    "dd_now": -56.4,
-   "alt_date": "2026-10-08",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -554,8 +554,8 @@
    "close": 8910.0,
    "change_pct": -4.09,
    "dd_now": -53.4,
-   "alt_date": "2026-10-08",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -617,8 +617,8 @@
    "close": 4360.0,
    "change_pct": 4.18,
    "dd_now": -39.3,
-   "alt_date": "2026-09-29",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": [
     "2026-06-01"
    ]
@@ -663,8 +663,8 @@
    "close": 10170.0,
    "change_pct": -5.31,
    "dd_now": -74.2,
-   "alt_date": "2026-09-17",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -707,8 +707,8 @@
    "close": 15440.0,
    "change_pct": -0.06,
    "dd_now": -51.5,
-   "alt_date": "2026-09-14",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": [
     "2026-07-14"
    ]
@@ -730,8 +730,8 @@
    "close": 5590.0,
    "change_pct": -3.95,
    "dd_now": -60.5,
-   "alt_date": "2026-09-14",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -795,8 +795,8 @@
    "close": 7010.0,
    "change_pct": -2.37,
    "dd_now": -41.5,
-   "alt_date": "2026-09-03",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": [
     "2026-07-29"
    ]
@@ -839,8 +839,8 @@
    "close": 4135.0,
    "change_pct": -1.9,
    "dd_now": -49.4,
-   "alt_date": "2026-08-14",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": [
     "2026-05-20"
    ]
@@ -883,8 +883,8 @@
    "close": 74500.0,
    "change_pct": -2.1,
    "dd_now": -66.4,
-   "alt_date": "2026-07-30",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -904,8 +904,8 @@
    "close": 484500.0,
    "change_pct": -5.92,
    "dd_now": -33.0,
-   "alt_date": "2026-07-29",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -925,8 +925,8 @@
    "close": 115900.0,
    "change_pct": -0.77,
    "dd_now": -47.2,
-   "alt_date": "2026-07-29",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -967,8 +967,8 @@
    "close": 89700.0,
    "change_pct": -0.11,
    "dd_now": -47.9,
-   "alt_date": "2026-07-29",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -988,8 +988,8 @@
    "close": 52000.0,
    "change_pct": -0.38,
    "dd_now": -40.8,
-   "alt_date": "2026-07-29",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -1030,8 +1030,8 @@
    "close": 7200.0,
    "change_pct": -0.55,
    "dd_now": -36.8,
-   "alt_date": "2026-07-29",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -1051,8 +1051,8 @@
    "close": 4110.0,
    "change_pct": -1.91,
    "dd_now": -52.9,
-   "alt_date": "2026-07-29",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -1072,8 +1072,8 @@
    "close": 1263000.0,
    "change_pct": 2.35,
    "dd_now": -57.7,
-   "alt_date": "2026-07-28",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -1219,8 +1219,8 @@
    "close": 7100.0,
    "change_pct": -1.66,
    "dd_now": -60.4,
-   "alt_date": "2026-07-28",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -1282,8 +1282,8 @@
    "close": 108600.0,
    "change_pct": -0.55,
    "dd_now": -54.1,
-   "alt_date": "2026-07-28",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -1303,8 +1303,8 @@
    "close": 38550.0,
    "change_pct": -3.63,
    "dd_now": -46.6,
-   "alt_date": "2026-07-28",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -1324,8 +1324,8 @@
    "close": 37100.0,
    "change_pct": -1.98,
    "dd_now": -53.1,
-   "alt_date": "2026-07-28",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -1412,8 +1412,8 @@
    "close": 40200.0,
    "change_pct": -3.48,
    "dd_now": -67.1,
-   "alt_date": "2026-07-28",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -1475,8 +1475,8 @@
    "close": 25850.0,
    "change_pct": -2.27,
    "dd_now": -43.1,
-   "alt_date": "2026-07-28",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -1538,8 +1538,8 @@
    "close": 13780.0,
    "change_pct": -2.34,
    "dd_now": -51.8,
-   "alt_date": "2026-07-28",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -1601,8 +1601,8 @@
    "close": 14180.0,
    "change_pct": -0.56,
    "dd_now": -58.8,
-   "alt_date": "2026-07-22",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -1643,8 +1643,8 @@
    "close": 20350.0,
    "change_pct": 1.9,
    "dd_now": -57.5,
-   "alt_date": "2026-07-28",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -1664,8 +1664,8 @@
    "close": 25150.0,
    "change_pct": -2.14,
    "dd_now": -43.6,
-   "alt_date": "2026-07-28",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -1706,8 +1706,8 @@
    "close": 6100.0,
    "change_pct": 2.18,
    "dd_now": -57.7,
-   "alt_date": "2026-07-20",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": [
     "2026-06-23"
    ]
@@ -1792,8 +1792,8 @@
    "close": 293000.0,
    "change_pct": -2.5,
    "dd_now": -62.6,
-   "alt_date": "2026-07-20",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -1897,8 +1897,8 @@
    "close": 64800.0,
    "change_pct": 0.15,
    "dd_now": -53.0,
-   "alt_date": "2026-07-24",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -1918,8 +1918,8 @@
    "close": 120100.0,
    "change_pct": -1.4,
    "dd_now": -55.8,
-   "alt_date": "2026-07-20",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -1939,8 +1939,8 @@
    "close": 41050.0,
    "change_pct": 0.61,
    "dd_now": -64.8,
-   "alt_date": "2026-07-22",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2044,8 +2044,8 @@
    "close": 9960.0,
    "change_pct": -1.58,
    "dd_now": -52.9,
-   "alt_date": "2026-07-20",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2128,8 +2128,8 @@
    "close": 8820.0,
    "change_pct": -1.45,
    "dd_now": -38.7,
-   "alt_date": "2026-07-24",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2191,8 +2191,8 @@
    "close": 15290.0,
    "change_pct": -11.26,
    "dd_now": -58.7,
-   "alt_date": "2026-07-24",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2233,8 +2233,8 @@
    "close": 12660.0,
    "change_pct": -1.78,
    "dd_now": -47.6,
-   "alt_date": "2026-07-24",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2275,8 +2275,8 @@
    "close": 7760.0,
    "change_pct": 0.26,
    "dd_now": -37.7,
-   "alt_date": "2026-07-24",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2317,8 +2317,8 @@
    "close": 5280.0,
    "change_pct": -2.94,
    "dd_now": -32.3,
-   "alt_date": "2026-07-21",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2401,8 +2401,8 @@
    "close": 9780.0,
    "change_pct": 1.35,
    "dd_now": -48.7,
-   "alt_date": "2026-07-21",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2422,8 +2422,8 @@
    "close": 102700.0,
    "change_pct": -1.91,
    "dd_now": -52.7,
-   "alt_date": "2026-07-21",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2443,8 +2443,8 @@
    "close": 19250.0,
    "change_pct": -1.84,
    "dd_now": -65.9,
-   "alt_date": "2026-07-14",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2506,8 +2506,8 @@
    "close": 58900.0,
    "change_pct": -3.92,
    "dd_now": -57.7,
-   "alt_date": "2026-07-14",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2548,8 +2548,8 @@
    "close": 49050.0,
    "change_pct": -0.3,
    "dd_now": -56.4,
-   "alt_date": "2026-07-14",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2653,8 +2653,8 @@
    "close": 12940.0,
    "change_pct": 0.15,
    "dd_now": -82.2,
-   "alt_date": "2026-07-14",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2674,8 +2674,8 @@
    "close": 54600.0,
    "change_pct": -3.7,
    "dd_now": -64.7,
-   "alt_date": "2026-07-09",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2695,8 +2695,8 @@
    "close": 212500.0,
    "change_pct": -3.63,
    "dd_now": -64.8,
-   "alt_date": "2026-07-08",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2737,8 +2737,8 @@
    "close": 41300.0,
    "change_pct": -4.51,
    "dd_now": -60.6,
-   "alt_date": "2026-07-09",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2758,8 +2758,8 @@
    "close": 5660.0,
    "change_pct": 0.53,
    "dd_now": -65.1,
-   "alt_date": "2026-07-09",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2821,8 +2821,8 @@
    "close": 9590.0,
    "change_pct": -4.29,
    "dd_now": -51.7,
-   "alt_date": "2026-07-07",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2863,8 +2863,8 @@
    "close": 32950.0,
    "change_pct": -2.08,
    "dd_now": -60.4,
-   "alt_date": "2026-07-09",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2884,8 +2884,8 @@
    "close": 959000.0,
    "change_pct": -4.58,
    "dd_now": -61.5,
-   "alt_date": "2026-07-07",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2905,8 +2905,8 @@
    "close": 91000.0,
    "change_pct": -2.15,
    "dd_now": -54.1,
-   "alt_date": "2026-07-08",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2926,8 +2926,8 @@
    "close": 6700.0,
    "change_pct": -0.89,
    "dd_now": -59.9,
-   "alt_date": "2026-07-08",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2947,8 +2947,8 @@
    "close": 160100.0,
    "change_pct": -4.36,
    "dd_now": -46.5,
-   "alt_date": "2026-07-03",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -2968,8 +2968,8 @@
    "close": 82100.0,
    "change_pct": -4.65,
    "dd_now": -55.5,
-   "alt_date": "2026-07-03",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3031,8 +3031,8 @@
    "close": 23850.0,
    "change_pct": -1.24,
    "dd_now": -57.2,
-   "alt_date": "2026-07-07",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3052,8 +3052,8 @@
    "close": 22900.0,
    "change_pct": -2.14,
    "dd_now": -66.2,
-   "alt_date": "2026-07-07",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3073,8 +3073,8 @@
    "close": 43300.0,
    "change_pct": -4.94,
    "dd_now": -60.1,
-   "alt_date": "2026-07-07",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3115,8 +3115,8 @@
    "close": 25300.0,
    "change_pct": -1.94,
    "dd_now": -55.8,
-   "alt_date": "2026-07-07",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3136,8 +3136,8 @@
    "close": 8210.0,
    "change_pct": 0.74,
    "dd_now": -56.7,
-   "alt_date": "2026-07-07",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3157,8 +3157,8 @@
    "close": 18000.0,
    "change_pct": -1.91,
    "dd_now": -59.5,
-   "alt_date": "2026-07-06",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3178,8 +3178,8 @@
    "close": 23300.0,
    "change_pct": -1.69,
    "dd_now": -63.3,
-   "alt_date": "2026-07-02",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3283,8 +3283,8 @@
    "close": 188500.0,
    "change_pct": -1.41,
    "dd_now": -55.8,
-   "alt_date": "2026-07-02",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3325,8 +3325,8 @@
    "close": 38300.0,
    "change_pct": -0.26,
    "dd_now": -60.9,
-   "alt_date": "2026-07-02",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3535,8 +3535,8 @@
    "close": 92800.0,
    "change_pct": -6.07,
    "dd_now": -63.7,
-   "alt_date": "2026-06-26",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3556,8 +3556,8 @@
    "close": 376000.0,
    "change_pct": -4.2,
    "dd_now": -79.0,
-   "alt_date": "2026-06-29",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3619,8 +3619,8 @@
    "close": 72400.0,
    "change_pct": -7.06,
    "dd_now": -61.9,
-   "alt_date": "2026-06-26",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3640,8 +3640,8 @@
    "close": 14030.0,
    "change_pct": -0.92,
    "dd_now": -62.1,
-   "alt_date": "2026-06-30",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3661,8 +3661,8 @@
    "close": 9150.0,
    "change_pct": -0.22,
    "dd_now": -63.4,
-   "alt_date": "2026-06-26",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3682,8 +3682,8 @@
    "close": 320000.0,
    "change_pct": -1.08,
    "dd_now": -70.0,
-   "alt_date": "2026-06-23",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3703,8 +3703,8 @@
    "close": 72200.0,
    "change_pct": -0.69,
    "dd_now": -52.9,
-   "alt_date": "2026-06-24",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3724,8 +3724,8 @@
    "close": 349000.0,
    "change_pct": -3.99,
    "dd_now": -64.4,
-   "alt_date": "2026-06-23",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3766,8 +3766,8 @@
    "close": 192000.0,
    "change_pct": -3.52,
    "dd_now": -53.6,
-   "alt_date": "2026-06-24",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3808,8 +3808,8 @@
    "close": 29850.0,
    "change_pct": -4.17,
    "dd_now": -66.4,
-   "alt_date": "2026-06-25",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3894,8 +3894,8 @@
    "close": 44700.0,
    "change_pct": -3.25,
    "dd_now": -64.8,
-   "alt_date": "2026-06-23",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3915,8 +3915,8 @@
    "close": 16050.0,
    "change_pct": -3.89,
    "dd_now": -70.3,
-   "alt_date": "2026-06-23",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3936,8 +3936,8 @@
    "close": 54700.0,
    "change_pct": -5.53,
    "dd_now": -42.6,
-   "alt_date": "2026-06-25",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -3999,8 +3999,8 @@
    "close": 12410.0,
    "change_pct": -0.64,
    "dd_now": -51.3,
-   "alt_date": "2026-06-23",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -4020,8 +4020,8 @@
    "close": 5310.0,
    "change_pct": -1.48,
    "dd_now": -55.7,
-   "alt_date": "2026-06-23",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -4041,8 +4041,8 @@
    "close": 30050.0,
    "change_pct": -1.31,
    "dd_now": -55.7,
-   "alt_date": "2026-06-23",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -4062,8 +4062,8 @@
    "close": 21850.0,
    "change_pct": -3.32,
    "dd_now": -55.3,
-   "alt_date": "2026-06-23",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -4125,8 +4125,8 @@
    "close": 6300.0,
    "change_pct": -1.87,
    "dd_now": -64.0,
-   "alt_date": "2026-06-25",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -4146,8 +4146,8 @@
    "close": 5860.0,
    "change_pct": -3.14,
    "dd_now": -59.6,
-   "alt_date": "2026-06-23",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -4167,8 +4167,8 @@
    "close": 6750.0,
    "change_pct": -0.3,
    "dd_now": -59.9,
-   "alt_date": "2026-06-23",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -4188,8 +4188,8 @@
    "close": 8720.0,
    "change_pct": -4.07,
    "dd_now": -56.6,
-   "alt_date": "2026-06-25",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -4272,8 +4272,8 @@
    "close": 18080.0,
    "change_pct": 1.35,
    "dd_now": -54.8,
-   "alt_date": "2026-06-23",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -4293,8 +4293,8 @@
    "close": 10900.0,
    "change_pct": -3.8,
    "dd_now": -62.0,
-   "alt_date": "2026-06-23",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -4356,8 +4356,8 @@
    "close": 17220.0,
    "change_pct": 2.93,
    "dd_now": -60.3,
-   "alt_date": "2026-06-24",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -4377,8 +4377,8 @@
    "close": 33700.0,
    "change_pct": -2.74,
    "dd_now": -59.5,
-   "alt_date": "2026-06-24",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -4419,8 +4419,8 @@
    "close": 5210.0,
    "change_pct": -1.88,
    "dd_now": -62.7,
-   "alt_date": "2026-06-23",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -4440,8 +4440,8 @@
    "close": 4490.0,
    "change_pct": -2.29,
    "dd_now": -56.9,
-   "alt_date": "2026-06-24",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -4482,8 +4482,8 @@
    "close": 9450.0,
    "change_pct": -2.88,
    "dd_now": -76.2,
-   "alt_date": "2026-06-23",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -4503,8 +4503,8 @@
    "close": 29450.0,
    "change_pct": -5.15,
    "dd_now": -65.6,
-   "alt_date": "2026-06-23",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -4713,8 +4713,8 @@
    "close": 251000.0,
    "change_pct": -0.4,
    "dd_now": -54.9,
-   "alt_date": "2026-06-22",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -4776,8 +4776,8 @@
    "close": 53400.0,
    "change_pct": -1.29,
    "dd_now": -70.4,
-   "alt_date": "2026-06-19",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -4881,8 +4881,8 @@
    "close": 9340.0,
    "change_pct": -0.43,
    "dd_now": -51.7,
-   "alt_date": "2026-06-19",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -4923,8 +4923,8 @@
    "close": 27500.0,
    "change_pct": -2.31,
    "dd_now": -72.6,
-   "alt_date": "2026-06-22",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -4944,8 +4944,8 @@
    "close": 20100.0,
    "change_pct": -0.99,
    "dd_now": -52.8,
-   "alt_date": "2026-06-19",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -5070,8 +5070,8 @@
    "close": 5170.0,
    "change_pct": -0.77,
    "dd_now": -50.3,
-   "alt_date": "2026-06-22",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": [
     "2026-03-09"
    ]
@@ -5093,8 +5093,8 @@
    "close": 5080.0,
    "change_pct": -2.68,
    "dd_now": -75.6,
-   "alt_date": "2026-06-22",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -5114,8 +5114,8 @@
    "close": 6250.0,
    "change_pct": -4.29,
    "dd_now": -68.3,
-   "alt_date": "2026-06-22",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -5261,8 +5261,8 @@
    "close": 56900.0,
    "change_pct": -3.23,
    "dd_now": -63.3,
-   "alt_date": "2026-06-19",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -5345,8 +5345,8 @@
    "close": 8900.0,
    "change_pct": 1.14,
    "dd_now": -62.8,
-   "alt_date": "2026-06-19",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -5366,8 +5366,8 @@
    "close": 155700.0,
    "change_pct": -1.77,
    "dd_now": -64.5,
-   "alt_date": "2026-06-10",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -5471,8 +5471,8 @@
    "close": 4985.0,
    "change_pct": -1.68,
    "dd_now": -65.4,
-   "alt_date": "2026-06-18",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -5513,8 +5513,8 @@
    "close": 6630.0,
    "change_pct": 1.38,
    "dd_now": -62.6,
-   "alt_date": "2026-06-18",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -5555,8 +5555,8 @@
    "close": 4425.0,
    "change_pct": 2.79,
    "dd_now": -29.0,
-   "alt_date": "2026-06-09",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -5597,8 +5597,8 @@
    "close": 17590.0,
    "change_pct": -2.22,
    "dd_now": -60.0,
-   "alt_date": "2026-06-10",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -5618,8 +5618,8 @@
    "close": 5010.0,
    "change_pct": -1.76,
    "dd_now": -55.2,
-   "alt_date": "2026-06-08",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -5639,8 +5639,8 @@
    "close": 11340.0,
    "change_pct": 5.1,
    "dd_now": -28.6,
-   "alt_date": "2026-06-08",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -5660,8 +5660,8 @@
    "close": 17560.0,
    "change_pct": -3.68,
    "dd_now": -71.8,
-   "alt_date": "2026-06-08",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -5681,8 +5681,8 @@
    "close": 66100.0,
    "change_pct": -9.95,
    "dd_now": -64.1,
-   "alt_date": "2026-06-05",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -5702,8 +5702,8 @@
    "close": 176100.0,
    "change_pct": 0.17,
    "dd_now": -56.6,
-   "alt_date": "2026-06-05",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -5828,8 +5828,8 @@
    "close": 10110.0,
    "change_pct": -1.27,
    "dd_now": -50.2,
-   "alt_date": "2026-06-05",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -5849,8 +5849,8 @@
    "close": 7160.0,
    "change_pct": -3.24,
    "dd_now": -70.1,
-   "alt_date": "2026-06-05",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -5912,8 +5912,8 @@
    "close": 10000.0,
    "change_pct": -3.85,
    "dd_now": -66.6,
-   "alt_date": "2026-06-05",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -5975,8 +5975,8 @@
    "close": 5570.0,
    "change_pct": -1.59,
    "dd_now": -56.6,
-   "alt_date": "2026-06-02",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -5996,8 +5996,8 @@
    "close": 4055.0,
    "change_pct": -2.05,
    "dd_now": -61.4,
-   "alt_date": "2026-06-05",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6017,8 +6017,8 @@
    "close": 36650.0,
    "change_pct": -2.27,
    "dd_now": -48.7,
-   "alt_date": "2026-06-02",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6038,8 +6038,8 @@
    "close": 32450.0,
    "change_pct": -0.31,
    "dd_now": -71.8,
-   "alt_date": "2026-06-05",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6059,8 +6059,8 @@
    "close": 13840.0,
    "change_pct": -1.63,
    "dd_now": -71.1,
-   "alt_date": "2026-06-05",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6080,8 +6080,8 @@
    "close": 11080.0,
    "change_pct": -2.46,
    "dd_now": -59.9,
-   "alt_date": "2026-06-02",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6166,8 +6166,8 @@
    "close": 10850.0,
    "change_pct": -0.46,
    "dd_now": -57.5,
-   "alt_date": "2026-06-05",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6187,8 +6187,8 @@
    "close": 10000.0,
    "change_pct": 0.1,
    "dd_now": -59.2,
-   "alt_date": "2026-06-05",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6208,8 +6208,8 @@
    "close": 15140.0,
    "change_pct": -2.89,
    "dd_now": -58.7,
-   "alt_date": "2026-06-05",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6313,8 +6313,8 @@
    "close": 5940.0,
    "change_pct": -2.14,
    "dd_now": -59.0,
-   "alt_date": "2026-06-05",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6334,8 +6334,8 @@
    "close": 5600.0,
    "change_pct": 0.18,
    "dd_now": -70.2,
-   "alt_date": "2026-06-05",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6355,8 +6355,8 @@
    "close": 5500.0,
    "change_pct": -5.01,
    "dd_now": -67.2,
-   "alt_date": "2026-06-05",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6439,8 +6439,8 @@
    "close": 7100.0,
    "change_pct": -2.87,
    "dd_now": -59.0,
-   "alt_date": "2026-06-05",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6460,8 +6460,8 @@
    "close": 5340.0,
    "change_pct": -1.84,
    "dd_now": -61.8,
-   "alt_date": "2026-06-05",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6481,8 +6481,8 @@
    "close": 9530.0,
    "change_pct": -1.75,
    "dd_now": -54.5,
-   "alt_date": "2026-06-02",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6523,8 +6523,8 @@
    "close": 84600.0,
    "change_pct": 4.7,
    "dd_now": -41.2,
-   "alt_date": "2026-06-02",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6565,8 +6565,8 @@
    "close": 9910.0,
    "change_pct": -1.78,
    "dd_now": -68.6,
-   "alt_date": "2026-06-02",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6586,8 +6586,8 @@
    "close": 65900.0,
    "change_pct": -3.8,
    "dd_now": -52.2,
-   "alt_date": "2026-06-02",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6607,8 +6607,8 @@
    "close": 7060.0,
    "change_pct": 0.86,
    "dd_now": -68.6,
-   "alt_date": "2026-06-01",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6628,8 +6628,8 @@
    "close": 6550.0,
    "change_pct": -0.61,
    "dd_now": -48.8,
-   "alt_date": "2026-06-01",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6649,8 +6649,8 @@
    "close": 7200.0,
    "change_pct": -1.64,
    "dd_now": -68.1,
-   "alt_date": "2026-05-29",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6670,8 +6670,8 @@
    "close": 8910.0,
    "change_pct": -3.15,
    "dd_now": -62.6,
-   "alt_date": "2026-06-02",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6691,8 +6691,8 @@
    "close": 8160.0,
    "change_pct": -5.12,
    "dd_now": -72.4,
-   "alt_date": "2026-06-01",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6712,8 +6712,8 @@
    "close": 8160.0,
    "change_pct": 2.64,
    "dd_now": -62.1,
-   "alt_date": "2026-06-02",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6733,8 +6733,8 @@
    "close": 6210.0,
    "change_pct": -1.9,
    "dd_now": -59.7,
-   "alt_date": "2026-06-04",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6754,8 +6754,8 @@
    "close": 4095.0,
    "change_pct": -0.49,
    "dd_now": -52.6,
-   "alt_date": "2026-06-04",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6775,8 +6775,8 @@
    "close": 10030.0,
    "change_pct": -1.96,
    "dd_now": -72.8,
-   "alt_date": "2026-06-02",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6796,8 +6796,8 @@
    "close": 6090.0,
    "change_pct": -0.98,
    "dd_now": -66.1,
-   "alt_date": "2026-06-02",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6817,8 +6817,8 @@
    "close": 4965.0,
    "change_pct": -3.22,
    "dd_now": -65.9,
-   "alt_date": "2026-06-02",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6838,8 +6838,8 @@
    "close": 8440.0,
    "change_pct": -0.24,
    "dd_now": -63.0,
-   "alt_date": "2026-06-02",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6880,8 +6880,8 @@
    "close": 5460.0,
    "change_pct": -3.36,
    "dd_now": -76.8,
-   "alt_date": "2026-05-28",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6901,8 +6901,8 @@
    "close": 6480.0,
    "change_pct": -2.41,
    "dd_now": -58.0,
-   "alt_date": "2026-06-02",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6922,8 +6922,8 @@
    "close": 11170.0,
    "change_pct": -2.95,
    "dd_now": -65.0,
-   "alt_date": "2026-05-29",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6964,8 +6964,8 @@
    "close": 8620.0,
    "change_pct": 0.12,
    "dd_now": -52.5,
-   "alt_date": "2026-06-01",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -6985,8 +6985,8 @@
    "close": 5180.0,
    "change_pct": -3.0,
    "dd_now": -71.5,
-   "alt_date": "2026-06-01",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7006,8 +7006,8 @@
    "close": 9980.0,
    "change_pct": -3.29,
    "dd_now": -69.8,
-   "alt_date": "2026-06-01",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7048,8 +7048,8 @@
    "close": 6060.0,
    "change_pct": -3.5,
    "dd_now": -72.8,
-   "alt_date": "2026-06-01",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7090,8 +7090,8 @@
    "close": 4110.0,
    "change_pct": -0.96,
    "dd_now": -57.2,
-   "alt_date": "2026-06-01",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7132,8 +7132,8 @@
    "close": 5320.0,
    "change_pct": 0.57,
    "dd_now": -63.6,
-   "alt_date": "2026-06-01",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7153,8 +7153,8 @@
    "close": 5630.0,
    "change_pct": -2.6,
    "dd_now": -77.3,
-   "alt_date": "2026-06-01",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7174,8 +7174,8 @@
    "close": 6090.0,
    "change_pct": 4.1,
    "dd_now": -49.8,
-   "alt_date": "2026-05-29",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7237,8 +7237,8 @@
    "close": 10080.0,
    "change_pct": -2.14,
    "dd_now": -63.7,
-   "alt_date": "2026-05-28",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7258,8 +7258,8 @@
    "close": 7670.0,
    "change_pct": -0.78,
    "dd_now": -53.5,
-   "alt_date": "2026-05-29",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7279,8 +7279,8 @@
    "close": 4375.0,
    "change_pct": -0.91,
    "dd_now": -52.9,
-   "alt_date": "2026-05-29",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7300,8 +7300,8 @@
    "close": 28050.0,
    "change_pct": -0.71,
    "dd_now": -71.2,
-   "alt_date": "2026-05-28",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7321,8 +7321,8 @@
    "close": 12020.0,
    "change_pct": -1.64,
    "dd_now": -71.5,
-   "alt_date": "2026-05-29",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7342,8 +7342,8 @@
    "close": 4080.0,
    "change_pct": -3.32,
    "dd_now": -70.2,
-   "alt_date": "2026-05-29",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7384,8 +7384,8 @@
    "close": 7090.0,
    "change_pct": 0.28,
    "dd_now": -71.2,
-   "alt_date": "2026-05-29",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7426,8 +7426,8 @@
    "close": 8990.0,
    "change_pct": -3.85,
    "dd_now": -55.9,
-   "alt_date": "2026-05-28",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7468,8 +7468,8 @@
    "close": 14800.0,
    "change_pct": -1.27,
    "dd_now": -70.2,
-   "alt_date": "2026-05-28",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7510,8 +7510,8 @@
    "close": 4685.0,
    "change_pct": -0.95,
    "dd_now": -49.1,
-   "alt_date": "2026-05-20",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7531,8 +7531,8 @@
    "close": 23700.0,
    "change_pct": 4.18,
    "dd_now": -63.1,
-   "alt_date": "2026-05-27",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7573,8 +7573,8 @@
    "close": 9770.0,
    "change_pct": -6.15,
    "dd_now": -74.3,
-   "alt_date": "2026-05-27",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7594,8 +7594,8 @@
    "close": 7910.0,
    "change_pct": -3.06,
    "dd_now": -72.5,
-   "alt_date": "2026-05-20",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7636,8 +7636,8 @@
    "close": 4930.0,
    "change_pct": -2.18,
    "dd_now": -55.5,
-   "alt_date": "2026-05-27",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7657,8 +7657,8 @@
    "close": 4720.0,
    "change_pct": -1.77,
    "dd_now": -84.1,
-   "alt_date": "2026-05-20",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7678,8 +7678,8 @@
    "close": 4785.0,
    "change_pct": -2.35,
    "dd_now": -66.4,
-   "alt_date": "2026-05-27",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7741,8 +7741,8 @@
    "close": 5910.0,
    "change_pct": 1.03,
    "dd_now": -58.5,
-   "alt_date": "2026-05-19",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7762,8 +7762,8 @@
    "close": 9500.0,
    "change_pct": 1.06,
    "dd_now": -52.9,
-   "alt_date": "2026-05-20",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7783,8 +7783,8 @@
    "close": 6390.0,
    "change_pct": 3.9,
    "dd_now": -70.3,
-   "alt_date": "2026-05-15",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7825,8 +7825,8 @@
    "close": 24350.0,
    "change_pct": -2.01,
    "dd_now": -76.1,
-   "alt_date": "2026-05-11",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7846,8 +7846,8 @@
    "close": 27750.0,
    "change_pct": -3.14,
    "dd_now": -80.2,
-   "alt_date": "2026-05-19",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7867,8 +7867,8 @@
    "close": 10260.0,
    "change_pct": 17.8,
    "dd_now": -73.0,
-   "alt_date": "2026-05-12",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7888,8 +7888,8 @@
    "close": 13830.0,
    "change_pct": -1.28,
    "dd_now": -77.6,
-   "alt_date": "2026-05-11",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7909,8 +7909,8 @@
    "close": 9970.0,
    "change_pct": -3.02,
    "dd_now": -80.8,
-   "alt_date": "2026-05-18",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7951,8 +7951,8 @@
    "close": 6250.0,
    "change_pct": 2.46,
    "dd_now": -72.5,
-   "alt_date": "2026-05-18",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7972,8 +7972,8 @@
    "close": 6010.0,
    "change_pct": 1.01,
    "dd_now": -46.7,
-   "alt_date": "2026-05-15",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -7993,8 +7993,8 @@
    "close": 6970.0,
    "change_pct": -1.69,
    "dd_now": -56.8,
-   "alt_date": "2026-05-11",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -8014,8 +8014,8 @@
    "close": 10360.0,
    "change_pct": -3.36,
    "dd_now": -79.1,
-   "alt_date": "2026-05-18",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -8035,8 +8035,8 @@
    "close": 4790.0,
    "change_pct": -0.62,
    "dd_now": -60.6,
-   "alt_date": "2026-05-18",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -8056,8 +8056,8 @@
    "close": 5290.0,
    "change_pct": -2.22,
    "dd_now": -61.0,
-   "alt_date": "2026-05-18",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -8119,8 +8119,8 @@
    "close": 5520.0,
    "change_pct": -2.13,
    "dd_now": -71.7,
-   "alt_date": "2026-05-15",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -8140,8 +8140,8 @@
    "close": 4840.0,
    "change_pct": -3.2,
    "dd_now": -71.2,
-   "alt_date": "2026-05-15",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -8182,8 +8182,8 @@
    "close": 4550.0,
    "change_pct": -2.26,
    "dd_now": -73.2,
-   "alt_date": "2026-05-13",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -8203,8 +8203,8 @@
    "close": 4550.0,
    "change_pct": 0.44,
    "dd_now": -69.1,
-   "alt_date": "2026-05-13",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -8224,8 +8224,8 @@
    "close": 11790.0,
    "change_pct": -3.36,
    "dd_now": -69.0,
-   "alt_date": "2026-05-07",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -8287,8 +8287,8 @@
    "close": 4570.0,
    "change_pct": -2.45,
    "dd_now": -74.3,
-   "alt_date": "2026-05-06",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -8308,8 +8308,8 @@
    "close": 45950.0,
    "change_pct": 3.49,
    "dd_now": -82.2,
-   "alt_date": "2026-05-04",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -8350,8 +8350,8 @@
    "close": 16560.0,
    "change_pct": -4.55,
    "dd_now": -89.2,
-   "alt_date": "2026-04-29",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -8392,8 +8392,8 @@
    "close": 9270.0,
    "change_pct": -0.86,
    "dd_now": -81.0,
-   "alt_date": "2026-04-21",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -8413,8 +8413,8 @@
    "close": 4560.0,
    "change_pct": -1.94,
    "dd_now": -69.9,
-   "alt_date": "2026-04-13",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -8455,8 +8455,8 @@
    "close": 5890.0,
    "change_pct": -0.17,
    "dd_now": -71.6,
-   "alt_date": "2026-04-02",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -8476,8 +8476,8 @@
    "close": 5750.0,
    "change_pct": -1.71,
    "dd_now": -84.3,
-   "alt_date": "2026-03-31",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -8539,8 +8539,8 @@
    "close": 4185.0,
    "change_pct": -2.67,
    "dd_now": -68.2,
-   "alt_date": "2026-03-30",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -8560,8 +8560,8 @@
    "close": 9950.0,
    "change_pct": -0.2,
    "dd_now": -79.9,
-   "alt_date": "2026-03-30",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -8581,8 +8581,8 @@
    "close": 13330.0,
    "change_pct": -5.39,
    "dd_now": -58.2,
-   "alt_date": "2026-03-30",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -8602,8 +8602,8 @@
    "close": 11160.0,
    "change_pct": -2.28,
    "dd_now": -66.8,
-   "alt_date": "2026-03-24",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -8791,8 +8791,8 @@
    "close": 6840.0,
    "change_pct": -4.2,
    "dd_now": -84.0,
-   "alt_date": "2026-02-23",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
@@ -8833,8 +8833,8 @@
    "close": 5100.0,
    "change_pct": -1.16,
    "dd_now": -75.6,
-   "alt_date": "2026-02-10",
-   "borderline": true,
+   "alt_date": null,
+   "borderline": false,
    "prev_hits": []
   },
   {
