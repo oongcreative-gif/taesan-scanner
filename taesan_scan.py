@@ -11,7 +11,7 @@
 6. 현재가(종가)가 4000원 미만인 종목은 제외한다 (시총 제한은 없음).
 7. HTS는 정규장 밖 거래(넥스트레이드)까지 합친 시세라 고점이 몇 % 더 높고 종가도 조금 다르다. 우리 데이터는
    정규장 시세뿐이라 -50%선 근처에서는 날짜가 어긋날 수 있다. 그래서 '경계'를 표시한다:
-   저가가 -50%에 닿았거나(저가 기준), 종가가 -48%에 닿은 날이 -50% 날짜보다 빠르면
+   저가가 -50%에 닿았거나(저가 기준), 종가가 -48%에 닿은 날이 -50% 날짜보다 10일 이상 빠르면
    그 날짜(alt_date)를 같이 보여줘서 HTS와 비교할 수 있게 한다.
 
 참고
@@ -46,6 +46,7 @@ SINCE = os.environ.get('TS_SINCE') or '2026-01-01'          # 이 날짜 이후�
 FETCH_FROM = os.environ.get('TS_FETCH_FROM') or '2025-01-01'  # 바닥을 찾기 위해 더 일찍부터 받는다
 MIN_PRICE = float(os.environ.get('TS_MIN_PRICE') or 4000)    # 현재가 4000원 이상만
 BORDER_DD = -48.0            # 경계 판정용: HTS 고점이 몇 % 더 높을 수 있어 -48%도 후보로 본다
+BORDER_DAYS = 10             # 경계 후보 날짜가 -50% 날짜보다 이만큼(달력일) 이상 빠를 때만 경계로 표시
 ALERT_DAYS = 5               # 이 기간 안에 -50%를 찍은 종목을 알림 후보로 (알림 놓침 방지, 중복은 상태로 거름)
 CHART_MAX_BARS = 420
 MAX_WORKERS = 8
@@ -167,7 +168,7 @@ def analyze(df, since):
     cand = [j for j in range(e['hi'] + 1, len(c))
             if lows[j] <= e['high'] * (1 + HIT_DD / 100) or (c[j] / e['high'] - 1) * 100 <= BORDER_DD]
     alt = cand[0] if cand else None
-    border = alt is not None and (e['hit'] is None or alt < e['hit'])
+    border = alt is not None and (e['hit'] is None or (df.index[e['hit']] - df.index[alt]).days >= BORDER_DAYS)
     res = {
         'status': 'hit' if e['hit'] is not None else 'watch',
         'bottom_date': d(e['li']), 'bottom_price': round(e['low'], 2),
