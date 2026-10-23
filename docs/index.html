@@ -83,6 +83,9 @@ td small{color:var(--sub); font-size:12px}
 .del:hover{color:var(--up); border-color:var(--up)}
 .tag.done{border-color:var(--sub); color:var(--sub)}
 .lnk{color:var(--sub); cursor:pointer; border-bottom:1px solid var(--rule); background:none; border-top:0; border-left:0; border-right:0; font:inherit; padding:0}
+td.dt{white-space:nowrap}
+td.dt small{display:block; font-size:11.5px; color:var(--mark)}
+.scroll{overflow-x:auto}
 </style>
 </head>
 <body>
@@ -131,7 +134,7 @@ td small{color:var(--sub); font-size:12px}
     </div>
     <div class="scroll">
       <table>
-        <thead><tr><th>종목명</th><th class="num">시총</th><th class="num">고점대비</th><th class="num">-50% 날짜</th></tr></thead>
+        <thead><tr><th>종목명</th><th class="num">시총</th><th class="num">고점대비</th><th class="num dt">-50% 날짜</th></tr></thead>
         <tbody id="body"></tbody>
       </table>
     </div>
@@ -236,7 +239,7 @@ td small{color:var(--sub); font-size:12px}
         <td class="nm"><b>${esc(h.name)}</b>${h.status === 'watch' ? '<span class="tag">감시</span>' : ''}${h.borderline ? '<span class="tag" title="HTS(통합시세)로는 더 일찍 -50%일 수 있어요">경계</span>' : ''}<small>바닥 +${nf.format(Math.round(h.rise_pct))}% · ${esc(h.peak_date)} 고점${h.prev_hits.length ? ' · 이전 도달 ' + h.prev_hits.length + '회' : ''}</small></td>
         <td class="num">${cap(h.marcap)}</td>
         <td class="num down">${pct(h.dd_now)}</td>
-        <td class="num">${h.hit_date ? esc(h.hit_date) : '-'}${h.borderline ? `<small>HTS는 ${esc(h.alt_date)}부터일 수 있음</small>` : ''}</td>
+        <td class="num dt">${h.hit_date ? esc(h.hit_date) : '-'}${h.borderline ? `<small>HTS ${esc(h.alt_date.slice(5))}일 수도</small>` : ''}</td>
       </tr>`).join('');
     const empty = $('#empty');
     empty.hidden = rows.length > 0;
