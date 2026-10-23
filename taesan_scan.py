@@ -56,9 +56,13 @@ def load_json(path, default):
 
 
 def save_json(path, obj, indent=None):
+    """먼저 문자열로 만든 뒤 임시 파일에 쓰고 바꿔치기해서, 중간에 실패해도 반쪽짜리 파일이 남지 않게 한다"""
+    text = json.dumps(obj, ensure_ascii=False, indent=indent, allow_nan=False)
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, 'w', encoding='utf-8') as f:
-        json.dump(obj, f, ensure_ascii=False, indent=indent, allow_nan=False)
+    tmp = path + '.tmp'
+    with open(tmp, 'w', encoding='utf-8') as f:
+        f.write(text)
+    os.replace(tmp, path)
 
 
 def reference_date():
@@ -191,7 +195,7 @@ def scan_one(code, start, asof):
             if (asof - raw.index[-1].date()).days > 7:        # 오래 거래정지인 종목
                 return 'none', None
             df = raw.dropna(subset=['Open', 'High', 'Low', 'Close']).copy()
-            df = df[(df['Close'] > 0) & (df['Volume'] > 0)]
+            df = df[(df['Open'] > 0) & (df['High'] > 0) & (df['Low'] > 0) & (df['Close'] > 0) & (df['Volume'] > 0)]   # 값이 0인 불량 봉 제외
             if len(df) < 30:
                 return 'none', None
             if float(df['Close'].iloc[-1]) < MIN_PRICE:           # 현재가 4000원 미만
