@@ -108,7 +108,7 @@ td small{color:var(--sub); font-size:12px}
     </div>
     <div id="chart" role="img" aria-label="캔들 차트"></div>
     <div class="view" id="view"></div>
-    <div class="key"><span>▲ 바닥(종가)</span><span>▼ 고점(종가)</span><span>● -50% 도달일</span><span>점선 위 = 고점 종가 · 점선 아래 = 고점의 -50%</span></div>
+    <div class="key"><span>▲ 바닥(저가)</span><span>▼ 고점(고가)</span><span>● -50% 도달일(종가)</span><span>점선 위 = 고점 · 점선 아래 = 고점의 -50%</span></div>
   </section>
 
   <section class="log" aria-label="종목 목록">
@@ -264,7 +264,7 @@ td small{color:var(--sub); font-size:12px}
     try { data = await getJSON('data/list.json'); } catch (e) { /* 아래 안내 문구로 처리 */ }
     items = data.items || [];
     const hits = items.filter((h) => h.status === 'hit').length;
-    $('#rule').textContent = `종가 기준 · 바닥 대비 +100% 이상 오른 종목이 고점 종가 대비 처음 -50% 이하로 마감한 날 (고점 ${data.since || ''} 이후)`;
+    $('#rule').textContent = `바닥(저가) 대비 고점(고가)이 +100% 이상 오른 종목이 고점 대비 종가가 처음 -50% 이하로 마감한 날 (고점 ${data.since || ''} 이후)`;
     $('#stamp').innerHTML = data.asof
       ? `<b>${esc(data.asof)}</b> 장 마감 기준 · -50% 도달 ${nf.format(hits)} · 감시 ${nf.format(items.length - hits)} · 현재가 ${nf.format((data.params || {}).min_price || 4000)}원 이상 · 갱신 ${esc((data.updated_at || '').slice(0, 16).replace('T', ' '))}`
       : '스캔 기록 없음';

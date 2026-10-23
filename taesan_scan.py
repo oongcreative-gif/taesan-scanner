@@ -1,8 +1,8 @@
 """태산기법 스캐너 - GitHub Actions용
 
-규칙 (모두 종가 기준)
-1. 바닥 = 종가 최저점. 바닥 대비 종가가 2배(+100%) 이상 오른 적이 있는 종목만 본다.
-2. 고점 = 그 상승 이후 종가 최고점(hc). 고점 종가 대비 종가가 처음 -50% 이하로 마감한 날 = '-50% 날짜'
+규칙 (HTS의 LC/HC와 같은 방식)
+1. 바닥 = 일중 최저가(저가). 바닥 대비 고점(고가)이 2배(+100%) 이상 오른 적이 있는 종목만 본다.
+2. 고점 = 그 상승 이후 일중 최고가(고가). 고점 대비 종가가 처음 -50% 이하로 마감한 날 = '-50% 날짜'
 3. -50%를 찍으면 그 한 번의 상승은 끝난 것으로 보고, 그 날부터 새 바닥을 다시 찾는다.
    (같은 종목이 다시 100% 올랐다가 -50%가 되면 새 기록으로 잡히고, 목록엔 가장 최근 것을 보여준다)
 4. 고점이 2026-01-01 이후인 것만 목록에 쌓는다 (바닥은 그 이전이어도 된다).
@@ -114,30 +114,29 @@ def get_universe():
         raise
 
 
-def episodes(c):
-    """종가 배열 -> 상승/하락 한 사이클 목록.
-    각 항목: 바닥(li)·고점(hi) 위치, 바닥·고점 종가, -50% 도달 위치(hit, 아직이면 None)"""
+def episodes(lo, hi_, c):
+    """저가·고가·종가 배열 -> 상승/하락 한 사이클 목록.
+    각 항목: 바닥(li, 저가)·고점(hi, 고가) 위치와 가격, -50% 도달 위치(hit, 아직이면 None)"""
     n = len(c)
     out = []
     if n == 0:
         return out
-    low, li, high, hi, q = c[0], 0, c[0], 0, False
+    low, li, high, hi, q = lo[0], 0, hi_[0], 0, False
     for i in range(1, n):
-        x = c[i]
         if not q:
-            if x < low:
-                low, li, high, hi = x, i, x, i
+            if lo[i] < low:
+                low, li, high, hi = lo[i], i, hi_[i], i
             else:
-                if x > high:
-                    high, hi = x, i
+                if hi_[i] > high:
+                    high, hi = hi_[i], i
                 if high >= RISE_X * low:
                     q = True
         else:
-            if x > high:
-                high, hi = x, i
-            elif (x / high - 1) * 100 <= HIT_DD:
+            if hi_[i] > high:
+                high, hi = hi_[i], i
+            if (c[i] / high - 1) * 100 <= HIT_DD:
                 out.append({'li': li, 'hi': hi, 'low': low, 'high': high, 'hit': i})
-                low, li, high, hi, q = x, i, x, i, False
+                low, li, high, hi, q = lo[i], i, hi_[i], i, False
     if q:
         out.append({'li': li, 'hi': hi, 'low': low, 'high': high, 'hit': None})
     return out
@@ -146,7 +145,7 @@ def episodes(c):
 def analyze(df, since):
     """가장 최근(고점이 since 이후인) 사이클의 결과 dict. 없으면 None"""
     c = df['Close'].to_numpy(dtype=float)
-    eps = [e for e in episodes(c) if df.index[e['hi']] >= pd.Timestamp(since)]
+    eps = [e for e in episodes(df['Low'].to_numpy(dtype=float), df['High'].to_numpy(dtype=float), c) if df.index[e['hi']] >= pd.Timestamp(since)]
     if not eps:
         return None, None
     e = eps[-1]
