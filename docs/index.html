@@ -125,6 +125,7 @@ td small{color:var(--sub); font-size:12px}
           <button type="button" data-s="dd" aria-pressed="false">하락률순</button>
           <button type="button" data-s="cap" aria-pressed="false">시총순</button>
         </div>
+        <label><input type="checkbox" id="onlyBorder"> 경계만</label>
         <input id="q" type="search" placeholder="종목 검색" aria-label="종목 검색">
       </div>
     </div>
@@ -154,7 +155,7 @@ td small{color:var(--sub); font-size:12px}
   const pct = (v, d = 0) => (v >= 0 ? '+' : '') + v.toFixed(d) + '%';
 
   let items = [];
-  let sortBy = 'date', viewBy = 'hit', selected = null, span = 0, cur = null;
+  let sortBy = 'date', viewBy = 'hit', onlyBorder = false, selected = null, span = 0, cur = null;
   let chart = null, candle = null, lines = [];
 
   const palette = () => dark()
@@ -220,6 +221,7 @@ td small{color:var(--sub); font-size:12px}
   function visible() {
     const q = $('#q').value.trim().toLowerCase();
     let rows = items.filter((h) => (viewBy === 'all' || h.status === viewBy)
+      && (!onlyBorder || h.borderline)
       && (!q || h.name.toLowerCase().includes(q) || h.code.includes(q)));
     if (sortBy === 'date') rows = rows.slice().sort((a, b) => ((b.hit_date || '') < (a.hit_date || '') ? -1 : (b.hit_date || '') > (a.hit_date || '') ? 1 : a.dd_now - b.dd_now));
     else if (sortBy === 'dd') rows = rows.slice().sort((a, b) => a.dd_now - b.dd_now);
@@ -231,10 +233,10 @@ td small{color:var(--sub); font-size:12px}
     const rows = visible();
     $('#body').innerHTML = rows.map((h) => `
       <tr data-code="${esc(h.code)}" aria-selected="${selected === h.code}">
-        <td class="nm"><b>${esc(h.name)}</b>${h.status === 'watch' ? '<span class="tag">감시</span>' : ''}<small>바닥 +${nf.format(Math.round(h.rise_pct))}% · ${esc(h.peak_date)} 고점${h.prev_hits.length ? ' · 이전 도달 ' + h.prev_hits.length + '회' : ''}</small></td>
+        <td class="nm"><b>${esc(h.name)}</b>${h.status === 'watch' ? '<span class="tag">감시</span>' : ''}${h.borderline ? '<span class="tag" title="HTS(통합시세)로는 더 일찍 -50%일 수 있어요">경계</span>' : ''}<small>바닥 +${nf.format(Math.round(h.rise_pct))}% · ${esc(h.peak_date)} 고점${h.prev_hits.length ? ' · 이전 도달 ' + h.prev_hits.length + '회' : ''}</small></td>
         <td class="num">${cap(h.marcap)}</td>
         <td class="num down">${pct(h.dd_now)}</td>
-        <td class="num">${h.hit_date ? esc(h.hit_date) : '-'}</td>
+        <td class="num">${h.hit_date ? esc(h.hit_date) : '-'}${h.borderline ? `<small>HTS는 ${esc(h.alt_date)}부터일 수 있음</small>` : ''}</td>
       </tr>`).join('');
     const empty = $('#empty');
     empty.hidden = rows.length > 0;
@@ -255,6 +257,7 @@ td small{color:var(--sub); font-size:12px}
     seg('#seg', 'n', (v) => { span = +v; applyRange(); });
     seg('#sort', 's', (v) => { sortBy = v; renderList(); });
     seg('#view2', 'v', (v) => { viewBy = v; renderList(); });
+    $('#onlyBorder').addEventListener('change', (e) => { onlyBorder = e.target.checked; renderList(); });
     $('#q').addEventListener('input', renderList);
   }
 

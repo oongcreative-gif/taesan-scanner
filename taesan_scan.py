@@ -9,6 +9,10 @@
 5. 아직 -50%에 안 온 종목은 '감시'로 보여준다. 텔레그램 알림은 처음 -50%를 찍었을 때만 보낸다.
    처음 한 번은 알림 없이 기준만 저장한다.
 6. 현재가(종가)가 4000원 미만인 종목은 제외한다 (시총 제한은 없음).
+7. HTS는 정규장 밖 거래(넥스트레이드)까지 합친 시세라 고점이 몇 % 더 높고 종가도 조금 다르다. 우리 데이터는
+   정규장 시세뿐이라 -50%선 근처에서는 날짜가 어긋날 수 있다. 그래서 '경계'를 표시한다:
+   저가가 -50%에 닿았거나(저가 기준), 종가가 -48%에 닿은 날이 -50% 날짜보다 빠르면
+   그 날짜(alt_date)를 같이 보여줘서 HTS와 비교할 수 있게 한다.
 
 참고
 - 시총은 오늘 기준이고, 주가는 FinanceDataReader가 주는 값(액면분할 등은 보정된 값)을 그대로 쓴다.
@@ -41,6 +45,7 @@ HIT_DD = -50.0               # 고점 대비 -50%
 SINCE = os.environ.get('TS_SINCE') or '2026-01-01'          # 이 날짜 이후에 고점이 있는 상승만
 FETCH_FROM = os.environ.get('TS_FETCH_FROM') or '2025-01-01'  # 바닥을 찾기 위해 더 일찍부터 받는다
 MIN_PRICE = float(os.environ.get('TS_MIN_PRICE') or 4000)    # 현재가 4000원 이상만
+BORDER_DD = -48.0            # 경계 판정용: HTS 고점이 몇 % 더 높을 수 있어 -48%도 후보로 본다
 ALERT_DAYS = 5               # 이 기간 안에 -50%를 찍은 종목을 알림 후보로 (알림 놓침 방지, 중복은 상태로 거름)
 CHART_MAX_BARS = 420
 MAX_WORKERS = 8
@@ -157,6 +162,12 @@ def analyze(df, since):
     prev = float(c[-2]) if len(c) > 1 else close
     dd_now = (close / e['high'] - 1) * 100
     d = lambda k: df.index[k].date().isoformat()          # noqa: E731
+    # 경계: 고점 이후 저가가 -50%에 닿았거나 종가가 -48%에 닿은 가장 이른 날
+    lows = df['Low'].to_numpy(dtype=float)
+    cand = [j for j in range(e['hi'] + 1, len(c))
+            if lows[j] <= e['high'] * (1 + HIT_DD / 100) or (c[j] / e['high'] - 1) * 100 <= BORDER_DD]
+    alt = cand[0] if cand else None
+    border = alt is not None and (e['hit'] is None or alt < e['hit'])
     res = {
         'status': 'hit' if e['hit'] is not None else 'watch',
         'bottom_date': d(e['li']), 'bottom_price': round(e['low'], 2),
@@ -167,6 +178,8 @@ def analyze(df, since):
         'half_price': round(e['high'] * (1 + HIT_DD / 100), 2),
         'close': close, 'change_pct': round((close / prev - 1) * 100, 2) if prev else 0.0,
         'dd_now': round(dd_now, 1),
+        'alt_date': d(alt) if border else None,
+        'borderline': bool(border),
         'prev_hits': [d(x['hit']) for x in eps[:-1] if x['hit'] is not None],
     }
     return res, e
